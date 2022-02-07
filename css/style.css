@@ -23,7 +23,7 @@
 
 body {
   background-image:URL("forest.jpg");
-  background-size:flex;
+  background-size:cover;
   flex-flow: column;
   height: 100vh;
   color: var(--font-color);
@@ -33,15 +33,18 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 960px;
+  max-width: 1920px;
   margin: 0 auto;
   padding: 1rem 2rem;
 }
 
 /* HEADER */
 
+
 header {
-  box-shadow: var(--header-shadow);
+   height: 150px
+   box-shadow var(--header-shadow);
+  
 }
 
 header .container {
